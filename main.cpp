@@ -1,14 +1,7 @@
 #include <iostream>
 
 using namespace std;
-int swapInt(int a, int b)
-{
-    int temp;
-    temp = a;
-        a = b;
-        b = temp;
-    return static_cast<void>(a),b;
-}
+
 void sortInserts(int *array, int first, int last) {
     int temp, pos, i;
     for (i = first + 1; i <= last; i++){
